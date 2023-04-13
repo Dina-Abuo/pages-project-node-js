@@ -44,7 +44,7 @@ p {
 .banner {
     position: relative;
     height: 200px;
-    background-image: url("./OIP.jpg");
+    background-image: url("../img/OIP.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
