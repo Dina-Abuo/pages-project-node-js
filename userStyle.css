@@ -1,0 +1,62 @@
+* {
+    --color-binc: #f9488b;
+    --color-orange: #ee8425;
+    --color-white: #fff;
+    --colorCoralRed: #f44949;
+    --colorBlowBlack: #171822;
+    --colorWhite: #fff;
+    --color-blue-gray-light: #a0a1b5;
+    --color-blue-gray-darck: #2f3039;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: var(--color-binc);
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, var(--colorCoralRed), var(--color-blue-gray-darck));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom right, var(--colorCoralRed),
+            var(--color-blue-gray-darck));
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+
+
+.form-check-input:checked {
+    background-color: var(--color-blue-gray-darck);
+    border-color: var(--color-blue-gray-darck);
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color:var(--color-blue-gray-darck);
+    box-shadow: none;
+}
+
+.form-select:focus {
+    border-color:var(--color-blue-gray-darck);
+    box-shadow: none;
+}
+
+.textColor {
+    color: var(--color-blue-gray-darck);
+}
+
+.btnSubmit {
+    background-image: linear-gradient(to bottom right, var(--colorCoralRed), var(--color-blue-gray-light));
+}
+
+.btnSubmit:hover {
+    background: var(--colorCoralRed)
+}
